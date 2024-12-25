@@ -1,0 +1,47 @@
+{
+	"name": "coach-web3",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite --host",
+		"build": "vite build",
+		"lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@tanstack/react-query": "^4.35.0",
+		"@tensorflow/tfjs": "^4.17.0",
+		"axios": "^1.5.0",
+		"chart.js": "^4.4.1",
+		"clsx": "^2.0.0",
+		"fuse.js": "^7.0.0",
+		"google-maps-react": "^2.0.6",
+		"js-cookie": "^3.0.5",
+		"react": "^18.2.0",
+		"react-chartjs-2": "^5.2.0",
+		"react-dom": "^18.2.0",
+		"react-google-maps": "^9.4.5",
+		"react-hook-form": "^7.46.1",
+		"react-icons": "^4.11.0",
+		"react-router-dom": "^6.15.0",
+		"react-select": "^5.7.5",
+		"react-toastify": "^10.0.4",
+		"react-transition-group": "^4.4.5",
+		"react-yandex-maps": "^4.6.0",
+		"recharts": "^2.11.0",
+		"sass": "^1.66.1"
+	},
+	"devDependencies": {
+		"@trivago/prettier-plugin-sort-imports": "^4.2.0",
+		"@types/react": "^18.2.15",
+		"@types/react-dom": "^18.2.7",
+		"@vitejs/plugin-react": "^4.0.3",
+		"eslint": "^8.45.0",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.4.3",
+		"prettier": "^3.0.3",
+		"vite": "^4.4.5"
+	}
+}

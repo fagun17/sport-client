@@ -1,0 +1,60 @@
+@import 'src/assets/styles/variables';
+@import 'src/assets/styles/animations';
+
+.wrapper {
+	position: relative;
+
+	button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+	}
+	> button {
+		font-size: 30px;
+
+		> svg {
+			animation: opacity 0.8s;
+			> path {
+				fill: #3399ff;
+			}
+		}
+	}
+	.menu {
+		position: absolute;
+		top: calc(100% + 8px);
+		right: 0;
+		background-color: #3399ff;
+		padding: 15px 20px;
+		font-size: 20px;
+		box-shadow: $bx-16;
+		border-radius: 10px 0 10px 10px;
+		min-width: 120px;
+		display: none;
+		animation: opacity 0.4s;
+
+		&.show {
+			display: block;
+		}
+
+		> ul {
+			list-style: none;
+
+			button {
+				font-size: 16px;
+			}
+
+			a {
+				color: #ffff;
+				text-decoration: none;
+				transition: color 0.2s ease;
+
+				&:hover,
+				&.active {
+					color: $accent;
+					margin: 1px 0;
+				}
+			}
+		}
+	}
+}

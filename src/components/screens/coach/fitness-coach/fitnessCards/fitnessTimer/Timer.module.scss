@@ -1,0 +1,48 @@
+.timer {
+	margin-top: 1rem;
+	.timer_one {
+		font-size: 80px;
+	}
+	.timer_two {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 10px;
+		font-size: 20px;
+		.input {
+			background-color: #3399ff;
+			padding: 10px 5px;
+			padding-left: 3px;
+			border: 1px solid #7e7d7d;
+			font-size: 18px;
+			border-radius: 10px;
+			color: #fff;
+		}
+		> button {
+			background-color: #3399ff;
+			border-radius: 10px;
+			border: 1px solid #7e7d7d;
+			font-size: 20px;
+			color: #fff;
+			cursor: pointer;
+			transition: color 0.4s ease-in-out;
+		}
+	}
+	.timer_three {
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 10px;
+		border: 1px #fff;
+		> button {
+			padding: 1rem 1rem;
+			background-color: #00bfff;
+			border-radius: 10px;
+			border: 1px solid #7e7d7d;
+			font-size: 20px;
+			color: #fff;
+			cursor: pointer;
+			transition: color 0.4s ease-in-out;
+		}
+	}
+}

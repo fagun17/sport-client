@@ -1,0 +1,41 @@
+@import 'src/assets/styles/variables';
+
+.heading {
+	margin: 500px auto;
+	text-align: center;
+	font-size: 32px;
+	color: #ffff;
+	line-height: 1.5;
+	@media (max-width: $mobile) {
+		font-size: 26px;
+	}
+}
+
+.href {
+	margin: 30px auto;
+	text-align: center;
+	font-size: 32px;
+	color: #24ca;
+	line-height: 1.5;
+	@media (max-width: $mobile) {
+		font-size: 26px;
+	}
+}
+
+.before_after {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	@media (max-width: $mobile) {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+.center {
+	text-align: center;
+	margin: 3px 0 18px;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 26px;
+}

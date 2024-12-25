@@ -1,0 +1,47 @@
+@import 'src/assets/styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	height: 100%;
+	max-width: 100%;
+	width: 100%;
+
+	padding: 25px;
+	margin: 0 auto;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	&.otherPage {
+		height: 380px;
+		border-radius: 0 0 20px 20px;
+		box-shadow: $bx-accent;
+		@media (max-width: $mobile) {
+			height: 380px !important;
+		}
+	}
+}
+
+.heading {
+	text-transform: uppercase;
+	color: $white;
+	font-size: 30px;
+	font-weight: bold;
+	@media (max-width: $mobile) {
+		font-size: 24px;
+	}
+}
+
+.headingcopy {
+	text-transform: uppercase;
+	color: #000;
+	font-size: 30px;
+	font-weight: bold;
+	@media (max-width: $mobile) {
+		font-size: 24px;
+	}
+}

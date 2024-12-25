@@ -1,0 +1,67 @@
+@import 'src/assets/styles/variables';
+
+.wrapper {
+	display: flex;
+	margin-bottom: 50px;
+	align-items: center;
+	justify-content: space-between;
+
+	&.profile {
+		> .count .heading {
+			color: #775f5f;
+		}
+	}
+
+	> .count {
+		width: 27%;
+		font-size: 24px;
+		text-align: center;
+
+		@media (max-width: $mobile) {
+			font-size: 18px;
+		}
+
+		.heading {
+			color: black;
+			text-transform: capitalize;
+		}
+
+		.number {
+			font-weight: bold;
+			color: #000;
+		}
+	}
+}
+
+.wrapper-no-margin {
+	display: flex;
+	margin-bottom: 90px;
+	align-items: center;
+	justify-content: space-between;
+
+	&.profile {
+		> .count .heading {
+			color: #775f5f;
+		}
+	}
+
+	> .count {
+		width: 27%;
+		font-size: 24px;
+		text-align: center;
+
+		@media (max-width: $mobile) {
+			font-size: 18px;
+		}
+
+		.heading {
+			color: black;
+			text-transform: capitalize;
+		}
+
+		.number {
+			font-weight: bold;
+			color: #000;
+		}
+	}
+}

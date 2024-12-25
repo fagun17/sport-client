@@ -1,0 +1,66 @@
+@import 'src/assets/styles/variables';
+
+$black-04: rgba($black, 1);
+
+.button {
+	border: none;
+	margin-bottom: 80px;
+	outline: none;
+	font-size: 22px;
+	border-radius: 10px;
+	padding: 15px 50px;
+	transition: background-color 0.15s ease;
+	background-color: #3399ff;
+	cursor: pointer;
+	color: #fff;
+
+	@media (max-width: $mobile) {
+		font-size: 16px;
+		padding: 12px 38px;
+	}
+
+	&:hover {
+		background-color: rgba(#3399ff, 0.7);
+	}
+
+	&.main {
+		background-color: rgba(255, 255, 255, 0.25);
+
+		&:hover {
+			background-color: $black-04;
+		}
+	}
+}
+.buttonrecom {
+	border: none;
+
+	outline: none;
+	font-size: 22px;
+	border-radius: 10px;
+	padding: 15px 50px;
+	transition: background-color 0.15s ease;
+	background-color: #3399ff;
+	cursor: pointer;
+	color: #fff;
+
+	@media (max-width: $mobile) {
+		font-size: 16px;
+		padding: 12px 38px;
+	}
+
+	&:hover {
+		background-color: rgba(#3399ff, 0.7);
+	}
+
+	&.main {
+		background-color: rgba(255, 255, 255, 0.25);
+
+		&:hover {
+			background-color: $black-04;
+		}
+	}
+}
+
+.wrapper {
+	text-align: center;
+}

@@ -1,0 +1,31 @@
+@import 'src/assets/styles/variables';
+
+.heading {
+	margin: 10px auto;
+	margin-bottom: 1 rem;
+	text-align: center;
+	font-size: 32px;
+	color: #ffff;
+	line-height: 1.5;
+	@media (max-width: $mobile) {
+		font-size: 26px;
+	}
+}
+.bskone {
+	margin: 70px 1px;
+	text-align: start;
+
+	color: #ffff;
+	line-height: 1.5;
+	@media (max-width: $mobile) {
+		font-size: 26px;
+	}
+}
+
+.center {
+	text-align: center;
+	margin: 16px 55 60px;
+}
+.imaga {
+	border-radius: 10;
+}

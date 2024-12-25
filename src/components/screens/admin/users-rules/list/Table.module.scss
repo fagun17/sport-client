@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300;600&family=Sofia+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+	margin: 2;
+	padding: 3;
+}
+
+.table {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	padding: 1rem;
+	margin-top: 10;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10;
+	font-family: 'Merriweather', serif;
+	font-weight: 200;
+}
+
+th {
+	color: #fff;
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 2px;
+	font-size: 20px;
+}
+td {
+	border: 1px solid #ffffff;
+	text-align: left;
+	padding: 2px;
+	font-size: 18px;
+}
+
+th {
+	background-color: #29ca;
+}
+
+td {
+	background-color: #3399ff;
+	size: 9;
+}
+
+.delete {
+	background-color: #ffffff;
+	padding: 12px 2%;
+
+	font-weight: 700;
+	margin-bottom: 7px;
+	border-radius: 8px;
+	outline: none;
+	font-size: 20;
+	color: white;
+	background-color: #24ca;
+}
+
+.res {
+	width: 80;
+	padding: 10px 1%;
+	font-weight: 10;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	outline: none;
+	font-size: 20;
+	background-color: #ffffff;
+}

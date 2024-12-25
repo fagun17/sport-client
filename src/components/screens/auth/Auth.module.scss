@@ -1,0 +1,24 @@
+@import 'src/assets/styles/variables';
+
+.wrapperButtons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> div {
+		width: 48%;
+		> button {
+			width: 100%;
+		}
+		&:last-child > button {
+			background-color: red;
+			opacity: 0.8;
+			transition: opacity 0.15s ease;
+			&:hover {
+				background-color: red;
+				color: white;
+				opacity: 1;
+			}
+		}
+	}
+}
